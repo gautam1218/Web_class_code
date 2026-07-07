@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1>user page...</h1>
+    <h1>name:<%= gautam.fname %> </h1>
+    <h2>roll no: <%=gautam.rollno  %></h2>
+    <p>color : <%=color %></p>
+    <h3>is_adult : <%= adult.age<18 %> ,vote kr sakte ho</h3>
+    <% if(adult.age>18){%>
+        <p>vote kr sakta hai</p>
+    <%} else{%>
+        <p>vote nhi kr sakta hai</p>
+   <% }%>
+
+
+    <% for (let i = flag; i < 25; i++) {
+   console.log(i); 
+   }%>
+   
+</body>
+</html>
