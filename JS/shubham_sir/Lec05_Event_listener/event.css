@@ -1,0 +1,12 @@
+
+
+.afterhover{
+    background-color: aquamarine;
+    border: 2px sold black;
+
+}
+.circle{
+    border-radius: 50%;
+    border: 2px solid black;
+    color: blueviolet;
+}

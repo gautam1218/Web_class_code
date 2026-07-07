@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+#Gauatm{
+    margin: 5rem;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    background-image: linear-gradient(to right ,#ede0d4,#dedbd2 ,white);
+    font-style:italic;
+    width: 50vw;
+    color:#03045e;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+body{
+    background-image: linear-gradient(to right , white,#d8e2dc);
+
+} 
